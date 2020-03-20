@@ -13,10 +13,11 @@ This should be in format like:
 
 How to run:
 1) Open terminal
-2) pyhton model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl
+2) pip install -r requirement.txt
+3) pyhton model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl
 (data_path, model_path, save_parameter are optional you can change it in the code in default option)
 
 a) If you training for the first time :
 python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl
 - it will create a model and parameter file
-b) If files are already there then it will start conversation with Chat-Bot
+b) If files are already there then it will start conversation with Chat-Bot using same command as mentioned above.
