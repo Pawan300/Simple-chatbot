@@ -14,7 +14,7 @@ This should be in format like:
 How to run:
 1) Open terminal
 2) pip install -r requirement.txt
-3) pyhton model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl
+3) python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl
 (data_path, model_path, save_parameter are optional you can change it in the code in default option)
 
 a) If you training for the first time :
