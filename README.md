@@ -16,10 +16,10 @@ This should be in format like:
 ### How to run:
   * Open terminal
   * ```pip install -r requirement.txt```
-  * ```python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl```
+  * ```python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl```<br>
     (data_path, model_path, save_parameter are optional you can change it in the code in default option)
 
   * If you training for the first time :
-       ```python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl```
+       ```python model.py --data_path data/intents.json --model_path model/ --save_parameter parameter/parameter.pkl```<br>
            - it will create a model and parameter file
   * If files are already there then it will start conversation with Chat-Bot using same command as mentioned above.
